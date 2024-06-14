@@ -4,16 +4,10 @@
     padding: 0;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 /* CSS Variables */
 :root {
     --navbar-height: 50px;
 }
-
-
 
 /* Logo and Image */
 #logo {
@@ -123,6 +117,10 @@ html {
     margin-bottom: 20px;
 }
 
+.box {
+    width: 500px;
+}
+
 #services .box img {
     height: 150px;
     width: 150px;
@@ -146,7 +144,7 @@ html {
     content: "";
     background: url('assests/foodlogo2.jpg') no-repeat center center/cover;
     position: absolute;
-    height: 42%;
+    height: 97%;
     width: 100%;
     z-index: -1;
     opacity: 0.3;
@@ -221,7 +219,7 @@ footer {
 }
 
 .h-secondary {
-    font-size: 2.8rem;
+    font-size: 2.1rem;
     padding: 12px;
     font-family: 'Bree Serif', serif;
 

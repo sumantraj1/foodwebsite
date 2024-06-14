@@ -36,6 +36,9 @@
         margin: 3px 0px;
         margin-bottom: 20px;
 }
+.box{
+    width: auto;
+}
 #services .box img{
     height:100px;
     width: 100px;
